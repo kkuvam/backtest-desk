@@ -15,20 +15,6 @@ This project began as an experiment in building a minimal quant pipeline end-to-
 - Exports dated signal CSVs for reproducibility
 - Equity curves, CAGR, drawdown and trade statistics
 
-## Project Structure
-
-.
-├── notebook/
-│   ├── signal_nse.ipynb          # Compute indicators and generate BUY/SELL signals
-│   ├── backtest_nse.ipynb        # Custom backtests
-│   ├── backtest_nse_bt.ipynb     # bt framework backtests
-│   ├── nifty_index.py            # NIFTY index universe definitions
-│   ├── plot_nse.ipynb            # Basic visualization
-│   └── runner_nse.ipynb          # Notebook version of data fetch
-├── pipeline/
-│   ├── runner_bse.py             # Download and store BSE bhavcopies
-│   └── runner_nse.py             # Download and store NSE bhavcopies
-└── data/                         # Raw csv/csv.gz files (not checked in)
 
 ## Quick Start
 
